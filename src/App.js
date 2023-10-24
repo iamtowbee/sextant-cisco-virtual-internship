@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Banner bannerText='Sextant Network Stats Dashboard'/>
-      <Exhibit title='' body=''/>
+      <Exhibit exhibitName='IP Address' body=''/>
     </>
   );
 }
