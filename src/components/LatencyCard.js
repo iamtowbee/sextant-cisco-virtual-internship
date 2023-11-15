@@ -13,7 +13,6 @@ class LatencyCard extends Card
   {
     const ws = new WebSocket("ws://localhost:55455")
 
-    // await ws.send("Hello")
     ws.onmessage = (event) =>
     {
       let timedelta = Date.now() - event.data
